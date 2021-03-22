@@ -17,14 +17,3 @@
 			:components
 			((:file #:data)
 			 (:file #:plot)))))
-
-(asdf:defsystem :ips/tests
-  :description "Unit tests for Lisp-Stat example project"
-  :license :MS-PL
-  :depends-on (#:ips #:parachute) ; Replace parachute with a different test framework if you wish.
-  :serial t
-  :pathname "tests/"
-  :components ((:file #:tstpkg)
-	       (:file #:example))
-  :perform (test-op (o s)
-  		    (uiop:symbol-call :parachute :test :ips-tests)))
