@@ -20,7 +20,7 @@
   <h3 align="center">Lisp-Stat Examples</h3>
 
   <p align="center">
-	From the book _Introduction to the Practice of Statistics_
+	From the book <em>Introduction to the Practice of Statistics</em>
 	<br />
     <a href="https://lisp-stat.dev/docs/examples"><strong>Explore the docs »</strong></a>
     <br />
