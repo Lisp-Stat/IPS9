@@ -25,11 +25,11 @@
     <a href="https://lisp-stat.dev/docs/examples"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/lisp-stat/lisp-stat/issues">Report Bug</a>
+    <a href="https://github.com/Lisp-Stat/IPS/issues">Report Bug</a>
     ·
-    <a href="https://github.com/lisp-stat/lisp-stat/issues">Request Feature</a>
+    <a href="https://github.com/Lisp-Stat/IPS/issues">Request Feature</a>
     ·
-    <a href="https://lisp-stat.github.io/lisp-stat/">Reference Manual</a>
+    <a href="https://lisp-stat.github.io/ips/">Reference Manual</a>
   </p>
 </p>
 
@@ -76,7 +76,7 @@
 ### Built With
 
 * [Lisp-Stat](https://github.com/Lisp-Stat/lisp-stat)
-* [common-lisp-jupyter)(https://github.com/yitzchak/common-lisp-jupyter/issues)
+* [common-lisp-jupyter](https://github.com/yitzchak/common-lisp-jupyter)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -91,7 +91,7 @@ An ANSI Common Lisp implementation. Developed and tested with
 
 ### Installation
 
-1. Install [common-lisp-jupyter)(https://github.com/yitzchak/common-lisp-jupyter/issues)
+1. Install [common-lisp-jupyter](https://github.com/yitzchak/common-lisp-jupyter)
 1. Clone the repository
    ```sh
    cd ~/quicklisp/local-projects &&
@@ -140,21 +140,21 @@ Distributed under the MS-PL License. See [LICENSE](LICENSE) for more infoqrmatio
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/lisp-stat/lisp-stat](https://github.com/lisp-stat/lisp-stat)
+Project Link: [https://github.com/lisp-stat/IPS](https://github.com/Lisp-Stat/IPS)
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/lisp-stat/lisp-stat.svg?style=for-the-badge
-[contributors-url]: https://github.com/lisp-stat/lisp-stat/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/lisp-stat/lisp-stat.svg?style=for-the-badge
-[forks-url]: https://github.com/lisp-stat/lisp-stat/network/members
-[stars-shield]: https://img.shields.io/github/stars/lisp-stat/lisp-stat.svg?style=for-the-badge
-[stars-url]: https://github.com/lisp-stat/lisp-stat/stargazers
-[issues-shield]: https://img.shields.io/github/issues/lisp-stat/lisp-stat.svg?style=for-the-badge
-[issues-url]: https://github.com/lisp-stat/lisp-stat/issues
-[license-shield]: https://img.shields.io/github/license/lisp-stat/lisp-stat.svg?style=for-the-badge
-[license-url]: https://github.com/lisp-stat/lisp-stat/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/lisp-stat/IPS.svg?style=for-the-badge
+[contributors-url]: https://github.com/lisp-stat/IPS/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/lisp-stat/IPS.svg?style=for-the-badge
+[forks-url]: https://github.com/lisp-stat/IPS/network/members
+[stars-shield]: https://img.shields.io/github/stars/lisp-stat/IPS.svg?style=for-the-badge
+[stars-url]: https://github.com/lisp-stat/IPS/stargazers
+[issues-shield]: https://img.shields.io/github/issues/lisp-stat/IPS.svg?style=for-the-badge
+[issues-url]: https://github.com/lisp-stat/IPS/issues
+[license-shield]: https://img.shields.io/github/license/lisp-stat/IPS.svg?style=for-the-badge
+[license-url]: https://github.com/lisp-stat/IPS/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/symbolics/
