@@ -28,8 +28,6 @@
     <a href="https://github.com/Lisp-Stat/IPS/issues">Report Bug</a>
     ·
     <a href="https://github.com/Lisp-Stat/IPS/issues">Request Feature</a>
-    ·
-    <a href="https://lisp-stat.github.io/ips/">Reference Manual</a>
   </p>
 </p>
 
@@ -121,19 +119,25 @@ additional examples in the chapter order of the book
 
 ## Resources
 
-This system is part of the [Lisp-Stat](https://lisp-stat.dev/) project; that should be your first stop for information. Also see the <!-- [resources](https://lisp-stat.dev/resources) and -->
+This system is part of the [Lisp-Stat](https://lisp-stat.dev/)
+project; that should be your first stop for information. Also see the
+<!-- [resources](https://lisp-stat.dev/resources) and -->
 [community](https://lisp-stat.dev/community) page for more
 information.
 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**. Please see [CONTRIBUTING](CONTRIBUTING.md) for details on the code of conduct, and the process for submitting pull requests.
+Contributions are what make the open source community such an amazing
+place to be learn, inspire, and create. Any contributions you make are
+greatly appreciated.  Please see [CONTRIBUTING](CONTRIBUTING.md) for
+details on the code of conduct, and the process for submitting pull
+requests.
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MS-PL License. See [LICENSE](LICENSE) for more infoqrmation.
+Distributed under the MS-PL License. See [LICENSE](LICENSE) for more information.
 
 
 
