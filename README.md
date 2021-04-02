@@ -67,9 +67,6 @@
   This repository contains worked Jupyter notebook examples from the book,
   _Introduction to the Practice of Statistics_, ninth edition.
 
-  Note that Github won't render these in-situ because it does not have
-  a Common Lisp kernel. You will need to check out the repo to follow
-  along.
 
 ### Built With
 
