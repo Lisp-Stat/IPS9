@@ -1,11 +1,8 @@
 ;;; -*- Mode: LISP; Base: 10; Syntax: ANSI-Common-lisp; Package: CL-USER -*-
 ;;; Copyright (c) 2021 by Symbolics Pte. Ltd. All rights reserved.
-(in-package :ips)
+(in-package #:ips)
 
-;;; There is a double conversion here because jsown's lisp format is
-;;; unique to jsown, and the only one that clj (common-lisp-jupyter)
-;;; understands
-
+#+nil
 (defun plot (spec)
   "Render a Vega-Lite specification, SPEC, in a Jupyter notebook"
   (let ((yason:*list-encoder* 'yason:encode-alist))
@@ -14,3 +11,7 @@
       (yason:with-output-to-string* (:stream-symbol s)
 	(yason:encode spec s)))
      "application/vnd.vegalite.v3+json")))
+
+(defun plot (spec)
+  "Render a Vega-Lite specification, SPEC, in a Jupyter notebook"
+  (j:vega-lite (vl-to-shasht spec)))	;CLJ/shasht has a unique encoding for alists
