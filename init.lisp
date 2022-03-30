@@ -1,5 +1,5 @@
 ;;; -*- Mode: LISP; Base: 10; Syntax: ANSI-Common-Lisp; Package: IPS -*-
-;;; Copyright (c) 2021 by Symbolics Pte. Ltd. All rights reserved.
+;;; Copyright (c) 2021-2022 by Symbolics Pte. Ltd. All rights reserved.
 
 ;;; Logical pathname setup
 (eval-when (:load-toplevel :execute)
@@ -8,10 +8,3 @@
 	  ("CACHE;**;*.*.*"    ,(merge-pathnames "ips/**/*.*" (uiop:xdg-cache-home)))
 	  ("DATA;**;*.*.*"     ,(merge-pathnames "ips/**/*.*" (uiop:xdg-data-home)))
 	  ("CONFIG;**;*.*.*"   ,(merge-pathnames "ips/**/*.*" (uiop:xdg-config-home))))))
-
-
-;;; Library versioning
-(defparameter *ips-version* (cl-semver:read-version-from-string "0.0.1"))
-
-
-
