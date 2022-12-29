@@ -3,10 +3,10 @@
 
 (uiop:define-package #:ips
   (:documentation "Examples from the Introduction to the Practice of Statistics")
-  (:use :cl :ls-user :dfio :data-frame :select :alexandria)
+  (:use :cl :ls-user :dfio :data-frame :select)
   ;; (:import-from :vglt :bar-chart :pie-chart :histogram)
   (:import-from :plot/text #:stem-and-leaf)
-  (:import-from :num-utils #:sum #:e/ #:e* #:tabulate)
+  (:import-from :num-utils #:sum #:e/ #:e*)
   (:import-from :lisp-stat #:variables)
   (:import-from :jupyter #:vega-lite)
   (:export #:plot
