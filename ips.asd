@@ -3,7 +3,7 @@
 
 (defsystem #:ips
   :name "Introduction to the Practice of Statistics in Lisp-Stat"
-  :version     "1.0.1"
+  :version     "1.1.0"
   :description "Worked examples from the book, The Introduction to the Practice of Statistics"
   :author "Steven Nunez <steve@symbolics.tech>"
   :license :MS-PL
@@ -12,7 +12,6 @@
 	       #:plot/vega
 	       #:plot/text
 	       #:alexandria
-;;	       #:alexandria+
 	       #:jsown
 	       #:common-lisp-jupyter)
   :components ((:file #:pkgdcls)
