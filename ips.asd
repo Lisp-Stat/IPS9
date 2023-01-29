@@ -3,7 +3,7 @@
 
 (defsystem #:ips
   :name "Introduction to the Practice of Statistics in Lisp-Stat"
-  :version     "1.2.0"
+  :version     "1.3.0"
   :description "Worked examples from the book, The Introduction to the Practice of Statistics"
   :author "Steven Nunez <steve@symbolics.tech>"
   :license :MS-PL
