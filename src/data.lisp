@@ -14,7 +14,8 @@
 (defvar eg01-22 "https://nhorton.people.amherst.edu/ips9/data/chapter01/EG01-22VITDS.csv")
 (defvar eg01-23 "https://nhorton.people.amherst.edu/ips9/data/chapter01/EG01-23TTS24.csv")
 (defvar eg01-31 "https://nhorton.people.amherst.edu/ips9/data/chapter01/EG01-31POETS.csv")
-(defvar eg01-36 "https://nhorton.people.amherst.edu/ips9/data/chapter01/EG01-36TITANIC.csv")
+(defvar eg01-36 "https://raw.githubusercontent.com/eepsmedia/codapxyz/master/static-data/csv/Titanic%20Passengers.csv")
+;(defvar eg01-36 "https://nhorton.people.amherst.edu/ips9/data/chapter01/EG01-36TITANIC.csv") ;amherst has the wrong data set
 (defvar eg01-46 "https://nhorton.people.amherst.edu/ips9/data/chapter01/EG01-46IQ.csv")
 
 ;; Chapter 2
