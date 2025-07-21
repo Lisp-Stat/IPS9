@@ -20,25 +20,6 @@
   <h3 align="center">IPS9 - Introduction to the Practice of Statistics</h3>
 
   <p align="center">
-    Jupyter notebooks for statistics education using Common Lisp
-    <br />
-    <a href="https://lisp-stat.github.io/IPS9/"><strong>📖 View Notebooks with Outputs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/Lisp-Stat/IPS9/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Lisp-Stat/IPS9/issues">Request Feature</a>
-  </p>
-</p>
-
-## 📖 View the Notebooks
-
-**[View all notebooks with outputs here](https://lisp-stat.github.io/IPS9/)**
-
-The notebooks in this repository are stored without outputs to keep the git history clean. 
-The executed versions with all outputs are automatically built and published when changes are pushed to the main branch.
-
-  <p align="center">
 	From the book <em>Introduction to the Practice of Statistics</em>
 	<br />
     <a href="https://lisp-stat.dev/docs/examples"><strong>Explore the docs »</strong></a>
@@ -47,6 +28,8 @@ The executed versions with all outputs are automatically built and published whe
     <a href="https://github.com/Lisp-Stat/IPS/issues">Report Bug</a>
     ·
     <a href="https://github.com/Lisp-Stat/IPS/issues">Request Feature</a>
+    ·
+    <a href="https://lisp-stat.github.io/IPS9/">View Outputs</a>
   </p>
 </p>
 

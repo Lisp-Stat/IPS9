@@ -44,15 +44,22 @@ jobs:
     
     - name: Convert notebooks to HTML
       run: |
-        # Create output directory on host first
-        mkdir -p _site
-        
         docker run --rm \
           --user root \
           -v ${{ github.workspace }}:/workspace \
           -w /workspace \
           ghcr.io/lisp-stat/cl-jupyter:latest \
           bash -c "
+            # Debug: Check current user and permissions
+            whoami
+            id
+            ls -la
+            
+            # Remove any existing _site directory and recreate
+            rm -rf _site
+            mkdir -p _site
+            chmod 755 _site
+            
             # Convert notebooks to HTML
             find . -name '*.ipynb' -not -path './.git/*' -exec jupyter nbconvert --to html --output-dir=_site {} \;
             
@@ -65,6 +72,9 @@ jobs:
               echo \"<li><a href='\${basename_file}.html'>\${basename_file}</a></li>\" >> _site/index.html
             done
             echo '</ul>' >> _site/index.html
+            
+            # Debug: Check what was created
+            ls -la _site/
           "
     
     - name: Deploy to GitHub Pages
