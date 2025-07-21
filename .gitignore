@@ -1,1 +1,33 @@
-.ipynb_checkpoints
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Common Lisp Jupyter kernel runtime files
+common-lisp-jupyter/
+
+# VS Code server files (created when running in container)
+.vscode-server/
+
+# Container-specific config cache
+.config/
+
+.cache/
+
+# User-specific runtime files
+.bash_history
+.local/
+.ssh/
+.gnupg/
+.jupyter/
+
+# Development container markers
+.devcontainer/.dotfilesMarker
+.devcontainer/.onCreateCommandMarker
+.devcontainer/.postCreateCommandMarker
+.devcontainer/.updateContentCommandMarker
+
+.dotnet/
+
+# Emacs backup files
+*~
+*#
+.#*.gitconfig

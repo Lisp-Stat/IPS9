@@ -13,11 +13,38 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Lisp-Stat/IPS">
+  <a href="https://github.com/Lisp-Stat/IPS9">
     <img src="https://lisp-stat.dev/images/stats-image.svg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Lisp-Stat Examples</h3>
+  <h3 align="center">IPS9 - Introduction to the Practice of Statistics</h3>
+
+  <p align="center">
+    Jupyter notebooks for statistics education using Common Lisp
+    <br />
+    <a href="https://lisp-stat.github.io/IPS9/"><strong>📖 View Notebooks with Outputs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/Lisp-Stat/IPS9/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Lisp-Stat/IPS9/issues">Request Feature</a>
+  </p>
+</p>
+
+## 📖 View the Notebooks
+
+**[View all notebooks with outputs here](https://lisp-stat.github.io/IPS9/)**
+
+The notebooks in this repository are stored without outputs to keep the git history clean. 
+The executed versions with all outputs are automatically built and published when changes are pushed to the main branch.
+
+## 🚀 Development
+
+### Local Development
+1. Open in VS Code with Dev Containers extension
+2. The container will start with Jupyter and Common Lisp kernel
+3. Edit notebooks as needed - outputs will be automatically stripped on commit
+4. Push changes to trigger automatic rebuilding of the published notebooks
 
   <p align="center">
 	From the book <em>Introduction to the Practice of Statistics</em>
@@ -80,9 +107,7 @@ To get a local copy up and running follow these steps:
 
 ### Prerequisites
 
-An ANSI Common Lisp implementation. Developed and tested with
-[SBCL](https://www.sbcl.org/) and
-[CCL](https://github.com/Clozure/ccl).
+An ANSI Common Lisp implementation. Developed and tested with [SBCL](https://www.sbcl.org/)
 
 ### Installation
 
@@ -105,6 +130,63 @@ An ANSI Common Lisp implementation. Developed and tested with
 ## Usage
 
   Run Jupyter-Lab in the IPS directory above. You should see the example notebooks.
+
+
+## VS Code vs. Jupyter Notebooks
+
+[common-lisp-jupyter](https://github.com/yitzchak/common-lisp-jupyter) (JupyterLab) and VS Code take different approaches to cell execution, and there isn't (yet) a good VS Code extension for Common Lisp.  If you run a notebook in VS Code you should set the cell language to 'clojure', which is the closest language for which VS Code does have support.  You'll lose some of the Common Lisp syntax highlighting, but the cells will run.  Here's a detailed explanation of the differences:
+
+
+### JupyterLab Approach
+
+- **No cell-level language identifiers** - cells don't have individual language metadata
+- **Kernel determines everything** - the notebook kernel (Python, R, Julia, Common Lisp, etc.) handles all code execution and language features
+- **Uniform syntax highlighting** - all code cells use the same syntax highlighting based on the kernel language
+- **Simple model** - one kernel = one language for the entire notebook
+
+### VS Code Jupyter Support
+
+- **Cell-level language metadata** - each cell can have its own language identifier
+- **Hybrid approach** - kernel handles execution, but cell language affects editor features
+- **Per-cell syntax highlighting** - each cell can have different syntax highlighting
+- **More complex** - allows mixed-language notebooks (though execution still goes through one kernel)
+
+### Why VS Code Does This
+
+VS Code's approach allows for:
+
+- **Better editor integration** - language servers, IntelliSense, error checking per cell
+- **Mixed content** - you could have SQL in one cell, Python in another (with appropriate kernels)
+- **Consistent editor experience** - same language features as regular files
+- **Flexibility** - syntax highlighting can differ from execution kernel
+
+### The Trade-off
+
+**JupyterLab's simpler approach:**
+
+- No language confusion - kernel = language
+- Consistent experience
+- No metadata overhead
+
+**VS Code's approach:**
+
+- More flexible and powerful
+- Can create confusion
+- Requires language metadata management
+
+### For Common Lisp 
+
+**In JupyterLab with a Common Lisp kernel:**
+
+- All cells automatically get Common Lisp syntax highlighting
+- No need to specify language per cell
+- Kernel handles everything
+
+**In VS Code:**
+
+- You need to set cell language to the closest syntax (Clojure)
+
+
 
 
 <!-- ROADMAP -->
