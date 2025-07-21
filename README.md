@@ -38,14 +38,6 @@
 The notebooks in this repository are stored without outputs to keep the git history clean. 
 The executed versions with all outputs are automatically built and published when changes are pushed to the main branch.
 
-## 🚀 Development
-
-### Local Development
-1. Open in VS Code with Dev Containers extension
-2. The container will start with Jupyter and Common Lisp kernel
-3. Edit notebooks as needed - outputs will be automatically stripped on commit
-4. Push changes to trigger automatic rebuilding of the published notebooks
-
   <p align="center">
 	From the book <em>Introduction to the Practice of Statistics</em>
 	<br />

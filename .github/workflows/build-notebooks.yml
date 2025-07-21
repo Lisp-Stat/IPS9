@@ -30,6 +30,7 @@ jobs:
     - name: Execute notebooks
       run: |
         docker run --rm \
+          --user root \
           -v ${{ github.workspace }}:/workspace \
           -w /workspace \
           ghcr.io/lisp-stat/cl-jupyter:latest \
@@ -43,14 +44,15 @@ jobs:
     
     - name: Convert notebooks to HTML
       run: |
+        # Create output directory on host first
+        mkdir -p _site
+        
         docker run --rm \
+          --user root \
           -v ${{ github.workspace }}:/workspace \
           -w /workspace \
           ghcr.io/lisp-stat/cl-jupyter:latest \
           bash -c "
-            # Create output directory
-            mkdir -p _site
-            
             # Convert notebooks to HTML
             find . -name '*.ipynb' -not -path './.git/*' -exec jupyter nbconvert --to html --output-dir=_site {} \;
             
