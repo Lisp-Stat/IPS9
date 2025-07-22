@@ -1,0 +1,102 @@
+2025-07-22 05:01:59 [INFO] <KERNEL> Starting common-lisp kernel
+2025-07-22 05:01:59 [INFO] <KERNEL> Parsing connection file /tmp/tmpbj4_274g.json
+2025-07-22 05:01:59 [INFO] <MAC> Starting message authentification
+2025-07-22 05:01:59 [INFO] <MAC> Using hmac with sha256 digest for message signing.
+2025-07-22 05:01:59 [INFO] <HB-CHANNEL> Starting channel on tcp://127.0.0.1:60881
+2025-07-22 05:01:59 [INFO] <HB-CHANNEL> Starting thread
+2025-07-22 05:01:59 [INFO] <IOPUB-CHANNEL> Starting channel on tcp://127.0.0.1:35669
+2025-07-22 05:01:59 [INFO] <SHELL-CHANNEL> Starting channel on tcp://127.0.0.1:37935
+2025-07-22 05:01:59 [INFO] <STDIN-CHANNEL> Starting channel on tcp://127.0.0.1:52399
+2025-07-22 05:01:59 [INFO] <CONTROL-CHANNEL> Starting channel on tcp://127.0.0.1:33453
+2025-07-22 05:01:59 [INFO] <HISTORY> Starting history
+2025-07-22 05:01:59 [INFO] <KERNEL> Loading CLHS map
+2025-07-22 05:01:59 [INFO] <KERNEL> Handling kernel_info_request message
+2025-07-22 05:01:59 [INFO] <KERNEL> Handling kernel_info_request message
+2025-07-22 05:01:59 [INFO] <KERNEL> Handling kernel_info_request message
+2025-07-22 05:01:59 [INFO] <KERNEL> Handling kernel_info_request message
+2025-07-22 05:01:59 [INFO] <KERNEL> Handling kernel_info_request message
+2025-07-22 05:01:59 [INFO] <KERNEL> Handling kernel_info_request message
+2025-07-22 05:01:59 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:00 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:00 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:00 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:00 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:00 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:00 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:01 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:03 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:03 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:03 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:03 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:03 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:03 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:03 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:03 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:03 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:03 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:04 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:05 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:05 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:05 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:05 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:05 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:05 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:05 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:05 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:05 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 05:02:05 [INFO] <KERNEL> Handling interrupt_request message
+2025-07-22 05:02:06 [INFO] <KERNEL> Handling shutdown_request message
+2025-07-22 05:02:06 [INFO] <KERNEL> Shell thread exiting normally.
+2025-07-22 05:02:06 [INFO] <KERNEL> Stopping common-lisp kernel
+2025-07-22 05:02:06 [INFO] <HB-CHANNEL> Stopping thread
+2025-07-22 05:02:06 [INFO] <HB-CHANNEL> Stopping channel
+2025-07-22 05:02:06 [INFO] <IOPUB-CHANNEL> Stopping channel
+2025-07-22 05:02:06 [INFO] <SHELL-CHANNEL> Stopping channel
+2025-07-22 05:02:06 [INFO] <STDIN-CHANNEL> Stopping channel
+2025-07-22 05:02:06 [INFO] <CONTROL-CHANNEL> Stopping channel
+2025-07-22 05:02:06 [INFO] <MAC> Stopping message authentification
+2025-07-22 05:02:06 [INFO] <HISTORY> Stopping history
