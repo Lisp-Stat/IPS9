@@ -1,0 +1,46 @@
+2025-07-22 04:46:18 [INFO] <KERNEL> Starting common-lisp kernel
+2025-07-22 04:46:18 [INFO] <KERNEL> Parsing connection file /tmp/tmpweizc85w.json
+2025-07-22 04:46:18 [INFO] <MAC> Starting message authentification
+2025-07-22 04:46:18 [INFO] <MAC> Using hmac with sha256 digest for message signing.
+2025-07-22 04:46:18 [INFO] <HB-CHANNEL> Starting channel on tcp://127.0.0.1:56455
+2025-07-22 04:46:18 [INFO] <HB-CHANNEL> Starting thread
+2025-07-22 04:46:18 [INFO] <IOPUB-CHANNEL> Starting channel on tcp://127.0.0.1:38557
+2025-07-22 04:46:18 [INFO] <SHELL-CHANNEL> Starting channel on tcp://127.0.0.1:41383
+2025-07-22 04:46:18 [INFO] <STDIN-CHANNEL> Starting channel on tcp://127.0.0.1:57803
+2025-07-22 04:46:18 [INFO] <CONTROL-CHANNEL> Starting channel on tcp://127.0.0.1:39743
+2025-07-22 04:46:18 [INFO] <HISTORY> Starting history
+2025-07-22 04:46:18 [INFO] <KERNEL> Loading CLHS map
+2025-07-22 04:46:18 [INFO] <KERNEL> Handling kernel_info_request message
+2025-07-22 04:46:18 [INFO] <KERNEL> Handling kernel_info_request message
+2025-07-22 04:46:18 [INFO] <KERNEL> Handling kernel_info_request message
+2025-07-22 04:46:18 [INFO] <KERNEL> Handling kernel_info_request message
+2025-07-22 04:46:18 [INFO] <KERNEL> Handling kernel_info_request message
+2025-07-22 04:46:18 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 04:46:18 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 04:46:18 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 04:46:20 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 04:46:20 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 04:46:20 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 04:46:20 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 04:46:20 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 04:46:20 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 04:46:20 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 04:46:20 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 04:46:20 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 04:46:20 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 04:46:20 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 04:46:20 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 04:46:20 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 04:46:20 [INFO] <KERNEL> Handling execute_request message
+2025-07-22 04:46:20 [INFO] <KERNEL> Handling interrupt_request message
+2025-07-22 04:46:21 [INFO] <KERNEL> Handling shutdown_request message
+2025-07-22 04:46:21 [INFO] <KERNEL> Shell thread exiting normally.
+2025-07-22 04:46:21 [INFO] <KERNEL> Stopping common-lisp kernel
+2025-07-22 04:46:21 [INFO] <HB-CHANNEL> Stopping thread
+2025-07-22 04:46:21 [INFO] <HB-CHANNEL> Stopping channel
+2025-07-22 04:46:21 [INFO] <IOPUB-CHANNEL> Stopping channel
+2025-07-22 04:46:21 [INFO] <SHELL-CHANNEL> Stopping channel
+2025-07-22 04:46:21 [INFO] <STDIN-CHANNEL> Stopping channel
+2025-07-22 04:46:21 [INFO] <CONTROL-CHANNEL> Stopping channel
+2025-07-22 04:46:21 [INFO] <MAC> Stopping message authentification
+2025-07-22 04:46:21 [INFO] <HISTORY> Stopping history
