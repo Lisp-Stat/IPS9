@@ -5,8 +5,8 @@
 		// Mount the current working directory to /home/jovyan/IPS9 in the container.
 		"source=${localWorkspaceFolder},target=/home/jovyan/IPS9,type=bind,consistency=cached"
 	],
-	// Install nbstripout to automatically clean notebooks
-	"postCreateCommand": "pip install nbstripout && nbstripout --install",
+	// Install nbstripout to automatically clean notebooks and ghp-import for GitHub Pages publishing
+	"postCreateCommand": "pip install nbstripout ghp-import && nbstripout --install",
     // Use base images default CMD.
 	"overrideCommand": false,
 	// Forward Jupyter port locally, mark required.

@@ -4,6 +4,9 @@
 # Common Lisp Jupyter kernel runtime files
 common-lisp-jupyter/
 
+# Build directory for GitHub Pages
+_build/
+
 # VS Code server files (created when running in container)
 .vscode-server/
 
