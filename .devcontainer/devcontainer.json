@@ -1,10 +1,13 @@
 {   
 	"name": "IPS9",
-   	"image": "ghcr.io/lisp-stat/cl-jupyter",
-	"mounts": [
-		// Mount the current working directory to /home/jovyan/IPS9 in the container.
-		"source=${localWorkspaceFolder},target=/home/jovyan/IPS9,type=bind,consistency=cached"
-	],
+    "build": {
+        "dockerfile": "../Dockerfile",
+        "context": ".."
+    },
+	// "mounts": [
+	// 	// Mount the current working directory to /home/jovyan/IPS9 in the container.
+	// 	"source=${localWorkspaceFolder},target=/home/jovyan,type=bind,consistency=cached"
+	// ],
 	// Install nbstripout to automatically clean notebooks and ghp-import for GitHub Pages publishing
 	"postCreateCommand": "pip install nbstripout ghp-import && nbstripout --install",
     // Use base images default CMD.
