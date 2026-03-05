@@ -1,36 +1,19 @@
-{   
-	"name": "IPS9",
-    "build": {
-        "dockerfile": "../Dockerfile",
-        "context": ".."
-    },
-	// "mounts": [
-	// 	// Mount the current working directory to /home/jovyan/IPS9 in the container.
-	// 	"source=${localWorkspaceFolder},target=/home/jovyan,type=bind,consistency=cached"
-	// ],
-	// Install nbstripout to automatically clean notebooks and ghp-import for GitHub Pages publishing
-	"postCreateCommand": "pip install nbstripout ghp-import && nbstripout --install",
-    // Use base images default CMD.
-	"overrideCommand": false,
-	// Forward Jupyter port locally, mark required.
-	"forwardPorts": [8888],
-	"portsAttributes": {
-		"8888": {
-			"label": "Jupyter",
-			"requireLocalPort": true,
-			"onAutoForward": "ignore"
-		}
-	},
-	// Configure tool-specific properties.
-	"customizations": {
-		// Configure properties specific to VS Code.
-		"vscode": {
-			// Set *default* container specific settings.json values on container create.
-			"settings": {
-				"python.defaultInterpreterPath": "/opt/conda/bin/python"
-			},
-			// Add the IDs of extensions you want installed when the container is created.
-			"extensions": ["ms-python.python", "ms-toolsai.jupyter"]
-		}
+{
+  "name": "IPS9 - Lisp-Stat Dev",
+  "image": "ghcr.io/lisp-stat/ls-dev:latest",
+  "containerUser": "vscode",
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.copilot",
+        "github.copilot-chat"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
     }
+  }
 }
